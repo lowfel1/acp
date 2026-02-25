@@ -14,8 +14,7 @@ from client import run_agent
 server = Server()
 
 model = LitellmModel(
-    model="ollama/mistral-small:latest",
-    api_key="dummy",  # Set OPENAI_API_KEY to use OpenAI models instead
+    model="ollama/llama3.2:3b",
     base_url="http://localhost:11434",
 )
 
